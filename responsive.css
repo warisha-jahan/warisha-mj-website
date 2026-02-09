@@ -1,0 +1,224 @@
+/* =======================
+   MEDIA QUERIES
+   ======================= */
+
+/* ==== Tablets (768px - 1024px) ==== */
+@media screen and (max-width: 1024px) {
+
+    header {
+        padding: 40px 50px;
+    }
+
+    #logo {
+        width: 80px;
+    }
+
+    #hero-section .content {
+        width:600px;
+    }
+
+    #hero-section .content h1 {
+        font-size: 48px;
+    }
+
+    #hero-section .content p {
+        padding: 0 30px;
+        font-size: 15px;
+    }
+
+    .buttons {
+        flex-direction:row;
+        gap: 15px;
+
+    }
+
+    #Demos{
+        width: 100%;
+        /* background-color: red; */
+        gap: 50px;
+    }
+
+    .demo-card {
+        width: 40%;
+        height: 400px;
+    }
+
+    .demo-img {
+        width: 95%;
+    }
+
+    #services {
+        padding: 60px 20px;
+    }
+
+    .services-title {
+        font-size: 2rem;
+    }
+
+    .service-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .service-number {
+        font-size: 1.8rem;
+    }
+
+    .service-text h3 {
+        font-size: 1.1rem;
+    }
+
+    .service-text p {
+        font-size: 0.9rem;
+    }
+
+    .footer-container {
+        padding: 0 20px;
+    }
+
+    .social-icons {
+        gap: 15px;
+    }
+
+    .button {
+        /* padding: 10px 40px; */
+        width: 150px;
+    }
+
+    .Cta {
+        width: 220px;
+    }
+
+    .cssbuttons-io-button {
+        width: 220px;
+        padding: 10px 20px;
+    }
+
+
+}
+
+/* ==== Mobile (max-width: 767px) ==== */
+@media screen and (max-width: 767px) {
+
+    header {
+        flex-direction: column;
+        padding: 20px 20px;
+        height: auto;
+        gap: 15px;
+    }
+
+    #logo {
+        width: 70px;
+    }
+
+    #hero-section {
+        height: auto;
+        padding: 40px 20px;
+
+    }
+
+    #hero-section .content{
+        padding: 10px;
+        width:400px;
+    }
+
+
+    #hero-section .content h1 {
+        font-size: 32px;
+    }
+
+    #hero-section .content p {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .button,
+    .Cta,
+    .cssbuttons-io-button {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+
+    .demo-card {
+        width: 95%;
+        height: 300px;
+    }
+
+    .demo-img {
+        width: 100%;
+        height: auto;
+    }
+
+    #services {
+        padding: 40px 10px;
+    }
+
+    .services-title {
+        font-size: 1.7rem;
+    }
+
+    .service-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .service-number {
+        font-size: 1.5rem;
+    }
+
+    .service-text h3 {
+        font-size: 1rem;
+    }
+
+    .service-text p {
+        font-size: 0.85rem;
+    }
+
+    .footer-container {
+        padding: 0 15px;
+    }
+
+    .social-icons {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    /* All Button */
+    .button {
+        /* padding: 10px 40px; */
+        width: 150px;
+    }
+
+    .Cta {
+        width: 200px;
+    }
+
+    .cssbuttons-io-button {
+        width: 180px;
+        padding: 10px 20px;
+    }
+
+}
