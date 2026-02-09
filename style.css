@@ -29,6 +29,10 @@ p {
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 header {
     height: 120px;
     width: 100%;
