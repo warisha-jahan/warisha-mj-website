@@ -234,6 +234,7 @@ header #logo {
     cursor: pointer;
     width: 200px;
     animation: fadeInUp 1s ease-out forwards;
+    text-decoration: none;
 }
 
 .cssbuttons-io-button .icon {
